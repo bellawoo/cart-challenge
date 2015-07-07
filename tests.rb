@@ -1,5 +1,7 @@
 require 'minitest/autorun'
 require 'pry'
+require './item'
+require './cart'
 
 class CartTest < MiniTest::Test
 

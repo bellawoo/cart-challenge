@@ -1,4 +1,5 @@
-require 'minitest/autorun'
+require './tests'
+
 class Item
   attr_reader :name, :price
 

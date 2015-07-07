@@ -1,8 +1,9 @@
-require 'minitest/autorun
-# '
+require './tests'
+require './item'
+
 class Cart
   attr_reader :item, :cart
-  def initialize item
+  def initialize
     @cart = []
     @item = item
   end
@@ -17,5 +18,9 @@ class Cart
 
   def contains? name
     @cart.include?(name)
+  end
+
+  def cost_before_tax
+    
   end
 end
